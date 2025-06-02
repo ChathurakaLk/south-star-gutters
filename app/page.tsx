@@ -1,13 +1,12 @@
 import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 overflow-hidden px-5">
-      <div className="max-w-7xl w-full">
-        <Navbar />
+    <div className="relative bg-black-100 flex justify-center items-center flex-col mx-auto  overflow-hidden">
+      <div className="w-full">
         <Hero />
       </div>
-    </main>
+    </div>
   );
 }
