@@ -44,7 +44,7 @@ const NavbarCom = () => {
         </NavBody>
  
         {/* Mobile Navigation */}
-        <MobileNav>
+        <MobileNav className='md:mb-5'>
           <MobileNavHeader>
             <NavbarLogo />
             <MobileNavToggle
