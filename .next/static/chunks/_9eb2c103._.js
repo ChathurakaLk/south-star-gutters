@@ -1061,7 +1061,7 @@ function BentoCard({ dark = false, className = "", eyebrow, title, description, 
                         className: "absolute inset-0 bg-gradient-to-b from-white to-50% group-data-[dark]:from-gray-950 group-data-[dark]:from-[-25%]"
                     }, void 0, false, {
                         fileName: "[project]/components/eldoraui/bentogrid.tsx",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 11
                     }, this),
                     fade.includes("bottom") && // eslint-disable-next-line tailwindcss/no-contradicting-classname
@@ -1069,13 +1069,13 @@ function BentoCard({ dark = false, className = "", eyebrow, title, description, 
                         className: "absolute inset-0 bg-gradient-to-t from-white to-50% group-data-[dark]:from-gray-950 group-data-[dark]:from-[-25%]"
                     }, void 0, false, {
                         fileName: "[project]/components/eldoraui/bentogrid.tsx",
-                        lineNumber: 45,
+                        lineNumber: 46,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/eldoraui/bentogrid.tsx",
-                lineNumber: 37,
+                lineNumber: 38,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1087,7 +1087,7 @@ function BentoCard({ dark = false, className = "", eyebrow, title, description, 
                         children: eyebrow
                     }, void 0, false, {
                         fileName: "[project]/components/eldoraui/bentogrid.tsx",
-                        lineNumber: 49,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1095,7 +1095,7 @@ function BentoCard({ dark = false, className = "", eyebrow, title, description, 
                         children: title
                     }, void 0, false, {
                         fileName: "[project]/components/eldoraui/bentogrid.tsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1103,19 +1103,19 @@ function BentoCard({ dark = false, className = "", eyebrow, title, description, 
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/components/eldoraui/bentogrid.tsx",
-                        lineNumber: 55,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/eldoraui/bentogrid.tsx",
-                lineNumber: 48,
+                lineNumber: 49,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/eldoraui/bentogrid.tsx",
-        lineNumber: 25,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }
@@ -1204,238 +1204,15 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/app/components/Services.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
+"[project]/app/components/Services.tsx [app-client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { g: global, __dirname, k: __turbopack_refresh__, m: module, e: exports } = __turbopack_context__;
 {
-__turbopack_context__.s({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$bentogrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/eldoraui/bentogrid.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$fadedown$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/eldoraui/fadedown.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
-"use client";
-;
-;
-;
-;
-const Services = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$fadedown$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FadeDown"], {
-                text: "Why Homeowners Trust Us",
-                highlight: [
-                    "Trust",
-                    "Us"
-                ],
-                className: "text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
-            }, void 0, false, {
-                fileName: "[project]/app/components/Services.tsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$bentogrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BentoCard"], {
-                        eyebrow: "Craftsmanship",
-                        title: "Experienced Team",
-                        description: "With years of hands-on experience in gutter installation and roofing, our skilled professionals deliver reliable craftsmanship and trusted results every time.",
-                        graphic: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-80 w-full",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/roof-damage-prone-areas-singapore-min.jpeg",
-                                alt: "Experienced team",
-                                fill: true,
-                                style: {
-                                    objectFit: "cover",
-                                    objectPosition: "center"
-                                },
-                                className: "rounded-lg",
-                                priority: true
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/Services.tsx",
-                                lineNumber: 22,
-                                columnNumber: 13
-                            }, void 0)
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, void 0),
-                        fade: [
-                            "bottom"
-                        ],
-                        className: "max-lg:rounded-t-4xl lg:rounded-tl-4xl lg:col-span-3"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Services.tsx",
-                        lineNumber: 16,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$bentogrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BentoCard"], {
-                        eyebrow: "Care",
-                        title: "Free After Service",
-                        description: "We stand by our work even after the job is done. Enjoy complimentary after-service support to keep your gutters performing perfectly year-round.",
-                        graphic: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-80 w-full",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/Rain-Gutter-Prices.webp",
-                                alt: "Free After Service",
-                                fill: true,
-                                style: {
-                                    objectFit: "cover",
-                                    objectPosition: "center"
-                                },
-                                className: "rounded-lg",
-                                priority: true
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/Services.tsx",
-                                lineNumber: 41,
-                                columnNumber: 13
-                            }, void 0)
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 40,
-                            columnNumber: 11
-                        }, void 0),
-                        fade: [
-                            "bottom"
-                        ],
-                        className: "lg:rounded-tr-4xl lg:col-span-3"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Services.tsx",
-                        lineNumber: 35,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$bentogrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BentoCard"], {
-                        eyebrow: "Transparency",
-                        title: "Free Estimates",
-                        description: "Get transparent, no-obligation quotes for your gutter or roofing project—fast, accurate, and tailored to your property’s needs.",
-                        graphic: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-80 w-full",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/coworker.jpg",
-                                alt: "Free Estimates",
-                                fill: true,
-                                style: {
-                                    objectFit: "cover",
-                                    objectPosition: "center"
-                                },
-                                className: "rounded-lg",
-                                priority: true
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/Services.tsx",
-                                lineNumber: 60,
-                                columnNumber: 13
-                            }, void 0)
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 59,
-                            columnNumber: 11
-                        }, void 0),
-                        fade: [
-                            "bottom"
-                        ],
-                        className: "lg:rounded-bl-4xl lg:col-span-2"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Services.tsx",
-                        lineNumber: 54,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$bentogrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BentoCard"], {
-                        eyebrow: "Efficiency",
-                        title: "Fast & Clean Work",
-                        description: "We respect your time and your space. Our crew completes every job efficiently while keeping your property clean and disruption-free.",
-                        graphic: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-80 w-full",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/g6.jpeg",
-                                alt: "Fast & Clean Work",
-                                fill: true,
-                                style: {
-                                    objectFit: "cover",
-                                    objectPosition: "center"
-                                },
-                                className: "rounded-lg",
-                                priority: true
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/Services.tsx",
-                                lineNumber: 79,
-                                columnNumber: 13
-                            }, void 0)
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 78,
-                            columnNumber: 11
-                        }, void 0),
-                        fade: [
-                            "bottom"
-                        ],
-                        className: "lg:col-span-2"
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Services.tsx",
-                        lineNumber: 73,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$eldoraui$2f$bentogrid$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BentoCard"], {
-                        eyebrow: "Trust",
-                        title: "10 Years Warranty",
-                        description: "Our work is built to last. We offer a 10-year warranty on all installations, giving you lasting peace of mind and unmatched protection.",
-                        graphic: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-80 w-full",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/10-year-roofing-warranty.png",
-                                alt: "10 Years Warranty",
-                                fill: true,
-                                style: {
-                                    objectFit: "cover",
-                                    objectPosition: "center"
-                                },
-                                className: "rounded-lg",
-                                priority: true
-                            }, void 0, false, {
-                                fileName: "[project]/app/components/Services.tsx",
-                                lineNumber: 98,
-                                columnNumber: 13
-                            }, void 0)
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/Services.tsx",
-                            lineNumber: 97,
-                            columnNumber: 11
-                        }, void 0),
-                        className: "max-lg:rounded-b-4xl lg:rounded-br-4xl lg:col-span-2",
-                        fade: [
-                            "bottom"
-                        ]
-                    }, void 0, false, {
-                        fileName: "[project]/app/components/Services.tsx",
-                        lineNumber: 92,
-                        columnNumber: 7
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/components/Services.tsx",
-                lineNumber: 15,
-                columnNumber: 5
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/app/components/Services.tsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-};
-_c = Services;
-const __TURBOPACK__default__export__ = Services;
-var _c;
-__turbopack_context__.k.register(_c, "Services");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
+const e = new Error(`Could not parse module '[project]/app/components/Services.tsx'
+
+Expected ',', got 'const'`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
 }]);
 
 //# sourceMappingURL=_9eb2c103._.js.map

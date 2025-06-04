@@ -3,6 +3,7 @@
 import { clsx } from "clsx";
 import { motion } from "framer-motion";
 import { Subheading } from "../ui/text";
+import { ShineBorder } from "../magicui/shine-border";
 
 export function BentoCard({
   dark = false,
@@ -22,6 +23,7 @@ export function BentoCard({
   fade?: ("top" | "bottom")[];
 }) {
   return (
+   
     <motion.div
       initial="idle"
       whileHover="active"
