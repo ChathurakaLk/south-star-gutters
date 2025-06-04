@@ -32,7 +32,11 @@ const Services = () => {
               />
             </div>
           }
-          fade={service.fade}
+          fade={
+            Array.isArray(service.fade)
+              ? service.fade.filter((f) => f === "top" || f === "bottom")
+              : []
+          }
           className={service.className}
         />
       ))}
