@@ -1,7 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/mongo-test/route": "app/api/mongo-test/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/invoice/page": "app/invoice/page.js",
-  "/page": "app/page.js"
-}
